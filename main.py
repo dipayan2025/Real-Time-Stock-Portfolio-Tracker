@@ -17,7 +17,7 @@ def menu():
             cli.commands["add"].invoke(ctx)
         elif choice == 2:
             symbol = click.prompt("Enter symbol to remove", type=str)
-            cli.commands["remove"].invoke(ctx, symbol=symbol)
+            cli.commands["remove"].invoke(ctx, [symbol])   # <-- fix here
         elif choice == 3:
             cli.commands["view"].invoke(ctx)
         elif choice == 4:

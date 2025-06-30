@@ -7,9 +7,21 @@
             "buy_date": "2025-06-27"
         },
         {
-            "symbol": "TATA STEEL",
-            "quantity": 5.0,
-            "buy_price": 110.0,
+            "symbol": "HAL.NS",
+            "quantity": 1.0,
+            "buy_price": 4000.0,
+            "buy_date": "2025-06-30"
+        },
+        {
+            "symbol": "TATASTEEL.NS",
+            "quantity": 2.0,
+            "buy_price": 154.0,
+            "buy_date": "2025-06-30"
+        },
+        {
+            "symbol": "LICI.NS",
+            "quantity": 1.0,
+            "buy_price": 972.0,
             "buy_date": "2025-06-30"
         }
     ],
@@ -30,9 +42,23 @@
         },
         {
             "action": "add",
-            "symbol": "TATA STEEL",
-            "quantity": 5.0,
-            "buy_price": 110.0,
+            "symbol": "HAL",
+            "quantity": 1.0,
+            "buy_price": 4000.0,
+            "date": "2025-06-30"
+        },
+        {
+            "action": "add",
+            "symbol": "TATASTEEL",
+            "quantity": 2.0,
+            "buy_price": 154.0,
+            "date": "2025-06-30"
+        },
+        {
+            "action": "add",
+            "symbol": "LIC.NS",
+            "quantity": 1.0,
+            "buy_price": 972.0,
             "date": "2025-06-30"
         }
     ]
