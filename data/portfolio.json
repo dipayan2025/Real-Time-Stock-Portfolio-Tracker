@@ -1,0 +1,39 @@
+{
+    "holdings": [
+        {
+            "symbol": "AAPL",
+            "quantity": 10,
+            "buy_price": 150,
+            "buy_date": "2025-06-27"
+        },
+        {
+            "symbol": "TATA STEEL",
+            "quantity": 5.0,
+            "buy_price": 110.0,
+            "buy_date": "2025-06-30"
+        }
+    ],
+    "history": [
+        {
+            "action": "add",
+            "symbol": "AAPL",
+            "quantity": 10,
+            "buy_price": 150,
+            "date": "2025-06-27"
+        },
+        {
+            "action": "removed",
+            "symbol": "TSLA",
+            "quantity": 5,
+            "buy_price": 700,
+            "date": "2025-06-27"
+        },
+        {
+            "action": "add",
+            "symbol": "TATA STEEL",
+            "quantity": 5.0,
+            "buy_price": 110.0,
+            "date": "2025-06-30"
+        }
+    ]
+}
